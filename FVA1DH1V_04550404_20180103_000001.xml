@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<FichierEDI>
+  <Entete>
+    <Emetteur>
+      <Societe>
+        <Code_Societe>04550404</Code_Societe>
+        <!--Optional:-->
+        <Code_Delegation></Code_Delegation>
+      </Societe>
+    </Emetteur>
+    <Destinataire>
+      <Societe>
+        <Code_Societe>80160000</Code_Societe>
+        <!--Optional:-->
+        <Code_Delegation></Code_Delegation>
+      </Societe>
+    </Destinataire>
+    <DateGeneration>2018-01-02T00:00:00</DateGeneration>
+    <RefInterneEmetteur>2018-01-02-K-PASSANT-1</RefInterneEmetteur>
+    <!--Optional:-->
+    <Cachet></Cachet>
+  </Entete>
+  <Contenu>
+  
+  
+  
+    <!--You have a CHOICE of the next 17 items at this level-->
+	
+	
+    <FVA_FichierAlimentations>
+      <FVA_EnteteAlimentation>
+        <FVA_NBLignesAlimentation>2</FVA_NBLignesAlimentation>
+        <FVA_NBLignesMajContrat>0</FVA_NBLignesMajContrat>
+        <FVA_NBLignesTransfert>0</FVA_NBLignesTransfert>
+      </FVA_EnteteAlimentation>
+      <FVA_Alimentations>
+        <!--Optional:-->
+        <FVA_Alimentation_Garanties>
+          <!--1 or more repetitions:-->
+          <FVA_Alimentation>
+		  
+		  <!--Cas passant : 
+		  
+					Date début < date du jour
+					Date de fin > date du jour
+
+
+		  -->
+          
+		  
+            <FVA_NumAlimentationGarantie>1</FVA_NumAlimentationGarantie>
+            <FVA_NumeroImmatriculation>AL-411-QN</FVA_NumeroImmatriculation>
+            <!--Optional:-->
+            <FVA_PaysIso></FVA_PaysIso>
+            <FVA_CodeSociete>04550404</FVA_CodeSociete>
+            <!--Optional:-->
+            <FVA_CodeGestionnaire></FVA_CodeGestionnaire>
+            <FVA_NumeroPolice>4187532</FVA_NumeroPolice>
+            <!--Optional:-->
+            <FVA_NumeroPoliceComplementaire></FVA_NumeroPoliceComplementaire>
+            <!--Optional:-->
+            <FVA_RefInterneSI>100002265888</FVA_RefInterneSI>
+            <!--Optional:-->
+            <FVA_DateDebut>2018-01-01T00:00:00+01:00</FVA_DateDebut>
+            <!--Optional:-->
+            <FVA_DateFin></FVA_DateFin>
+            <!--Optional:-->
+            <FVA_DateDebutMaj></FVA_DateDebutMaj>
+            <!--Optional:-->
+            <FVA_DateFinMaj></FVA_DateFinMaj>
+            <FVA_MotifAlimentation>U</FVA_MotifAlimentation>
+            <!--Optional:-->
+            <FVA_NumeroPoliceComplementaireMaj></FVA_NumeroPoliceComplementaireMaj>
+            <!--Optional:-->
+            <FVA_RefInterneSIMaj></FVA_RefInterneSIMaj>
+          </FVA_Alimentation>          
+		  
+		  <!--Cas passant : 
+		  
+					Date début > date du jour
+					Date de fin > date du jour
+
+
+		  -->		  
+		  
+		  <FVA_Alimentation>
+            <FVA_NumAlimentationGarantie>2</FVA_NumAlimentationGarantie>
+            <FVA_NumeroImmatriculation>EJ-295-BN</FVA_NumeroImmatriculation>
+            <!--Optional:-->
+            <FVA_PaysIso></FVA_PaysIso>
+            <FVA_CodeSociete>04550404</FVA_CodeSociete>
+            <!--Optional:-->
+            <FVA_CodeGestionnaire></FVA_CodeGestionnaire>
+            <FVA_NumeroPolice>4187567</FVA_NumeroPolice>
+            <!--Optional:-->
+            <FVA_NumeroPoliceComplementaire></FVA_NumeroPoliceComplementaire>
+            <!--Optional:-->
+            <FVA_RefInterneSI>100002266455</FVA_RefInterneSI>
+            <!--Optional:-->
+            <FVA_DateDebut>2018-07-16T00:00:00+01:00</FVA_DateDebut>
+            <!--Optional:-->
+            <FVA_DateFin></FVA_DateFin>
+            <!--Optional:-->
+            <FVA_DateDebutMaj></FVA_DateDebutMaj>
+            <!--Optional:-->
+            <FVA_DateFinMaj></FVA_DateFinMaj>
+            <FVA_MotifAlimentation>U</FVA_MotifAlimentation>
+            <!--Optional:-->
+            <FVA_NumeroPoliceComplementaireMaj></FVA_NumeroPoliceComplementaireMaj>
+            <!--Optional:-->
+            <FVA_RefInterneSIMaj></FVA_RefInterneSIMaj>
+          </FVA_Alimentation>
+		  
+        </FVA_Alimentation_Garanties>
+
+      </FVA_Alimentations>
+    </FVA_FichierAlimentations>
+	
+  </Contenu>
+</FichierEDI>
