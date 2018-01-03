@@ -15,7 +15,7 @@
         <Code_Delegation>string</Code_Delegation>
       </Societe>
     </Destinataire>
-    <DateGeneration>2008-09-29T03:49:45</DateGeneration>
+    <DateGeneration>2018-01-03T03:49:45</DateGeneration>
     <RefInterneEmetteur>string</RefInterneEmetteur>
     <!--Optional:-->
     <Cachet>string</Cachet>
